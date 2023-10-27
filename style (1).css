@@ -1,0 +1,64 @@
+.nav-bar {
+     background-color: rgb(1, 9, 9);
+     width: 100%;
+     height: 80px;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .profile-image {
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     margin-right: 10px;
+ }
+ 
+ h1 {
+     color: white;
+     text-align: center;
+     margin: 0;
+     flex: 1; 
+ }
+ .list-data{
+     align-items: center;
+         border: 2px solid black;
+         border-radius: 2rem;
+         margin:0 auto 1rem;
+         font-size: 3rem;
+         line-height: 7rem;
+         padding-bottom: 40px;
+     
+ }
+ .list-data ul {
+     list-style: none;
+     padding: 0;
+ }
+ 
+ .list-data ul li {
+     padding: 10px 0; 
+     border-top: 2px solid black; 
+ }
+ 
+ .list-data ul li:first-child {
+     border-top: none; 
+ }
+ h3{
+    align-items: center;
+    margin-left: 48%;
+    font-size: 2rem;
+ }
+ button{
+    color: #fff;
+    display: flex;
+    padding: 8px 22px;
+    align-items: center;
+    margin: 1rem 0;
+    font-size: 1rem;
+    border-radius: 40px;
+    background: #7d2ae8;
+    margin-left: 49%;
+    transition: all 0.2s ease;
+ }
+ button:active{
+    transform: scale(0.96);
+ }
